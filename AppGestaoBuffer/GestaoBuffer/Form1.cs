@@ -11,9 +11,16 @@ namespace GestaoBuffer
 {
     public partial class Form1 : Form
     {
+		BufferManager bm;
         public Form1()
         {
             InitializeComponent();
+			bm = new BufferManager();
         }
+
+		private void btnLoad_Click(object sender, EventArgs e)
+		{
+
+		}
     }
 }
