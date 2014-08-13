@@ -11,13 +11,18 @@ namespace GestaoBuffer
 	{
 		private int pageLength = 128;
 		private int bufferLength = 10;
-		private string discPath = @"c:\temp\dbFile.txt";
-		private IList<DataPage> buffer;
+        private string discPath = @"..\\..\\dbFile.txt";
+        private DataPage[] buffer;
 
 		public BufferManager()
 		{
-			this.buffer = new List<DataPage>(this.bufferLength);
-		}
+            this.buffer = new DataPage[bufferLength];
+
+            for (int i = 0; i < this.bufferLength; i++)
+            {
+                this.buffer[i] = new DataPage();
+            }
+        }
 			
 		// TODO: Popular arquivo se o mesmo não existir
 		private FileStream OpenDbFile()
@@ -33,7 +38,7 @@ namespace GestaoBuffer
 				DataPage slotPage = null;
 
 				// is there space to load a page?
-				if (!this.buffer.Any(x => x == null))
+                if (this.buffer.Any(x => x.PinCount == 0))
 				{
 					// Choose a page to kick out
 					slotPage = this.ChoosePage(GestaoBuffer.Enum.ReplacementPolicyEnum.LRU);
@@ -56,34 +61,44 @@ namespace GestaoBuffer
 
 		internal void SavePage(int page, DataPage dataPage)
 		{
-			var dbFile = new StreamWriter(this.OpenDbFile());
-			dbFile.Write(dataPage.Buffer, this.pageLength * (page - 1), this.pageLength);
+            using (var dbFile = new StreamWriter(this.OpenDbFile()))
+            {
+                dbFile.Write(dataPage.Buffer, this.pageLength * (page - 1), this.pageLength);
+            }
 		}
 
 
 		internal void ChangePage(int page, char[] data)
 		{
-			buffer[page - 1].Buffer = data;
-			buffer[page - 1].Dirt = true;
+            DataPage changedPage = this.buffer.FirstOrDefault(x => x.Page == page);
+
+            if (changedPage != null)
+            {
+                changedPage.Buffer = data;
+                changedPage.Dirt = true;
+            }
 		}
 
-		internal void ListPages()
+		internal string ListPages()
 		{
 			StringBuilder sb = new StringBuilder();
 
 			foreach (var page in this.buffer)
 			{
-				sb.AppendLine("----------------------------------------------------------------------");
-				sb.AppendLine(page.ToString());
-				sb.AppendLine("----------------------------------------------------------------------");
+                if (page.Buffer != null)
+                {
+                    sb.AppendLine("----------------------------------------------------------------------");
+                    sb.AppendLine(page.ToString());
+                    sb.AppendLine("----------------------------------------------------------------------");
+                }
 			}
 
-			MessageBox.Show(sb.ToString());
+			return sb.ToString();
 		}
 
 		private bool PageInBuffer(int page)
 		{
-			return this.buffer.Any(x => x.Page == page);
+			return this.buffer.Any(x =>x.Page == page);
 		}
 
 		private DataPage ChoosePage(GestaoBuffer.Enum.ReplacementPolicyEnum ra)
@@ -93,13 +108,13 @@ namespace GestaoBuffer
 			switch (ra)
 			{
 				case GestaoBuffer.Enum.ReplacementPolicyEnum.LRU:
-					chosenPage = this.buffer.Where(x => x.PinCount == 0).OrderBy(x => x.LastAccess).First();
+                    chosenPage = this.buffer.Where(x => x.PinCount == 0).OrderBy(x => x.LastAccess).First();
 					break;
 				case GestaoBuffer.Enum.ReplacementPolicyEnum.MRU:
-					chosenPage = this.buffer.Where(x => x.PinCount == 0).OrderByDescending(x => x.LastAccess).First();
+                    chosenPage = this.buffer.Where(x => x.PinCount == 0).OrderByDescending(x => x.LastAccess).First();
 					break;
 				default:
-					chosenPage = this.buffer.Where(x => x.PinCount == 0).OrderBy(x => x.LastAccess).First();
+                    chosenPage = this.buffer.Where(x => x.PinCount == 0).OrderBy(x => x.LastAccess).First();
 					break;
 			}
 			return chosenPage;
@@ -107,20 +122,26 @@ namespace GestaoBuffer
 
 		private DataPage GetFreeSlot()
 		{
-			return this.buffer.First(); 
+            return this.buffer.Where(x => x.PinCount == 0).First(); 
 		}
 
 		private void Read(int page, DataPage memoryPage)
 		{
 			char[] buffer = new char[pageLength];
 
-			var dbFile = new StreamReader(this.OpenDbFile());
-			dbFile.ReadBlock(buffer, this.pageLength * (page - 1), this.pageLength);
+            using (var dbFile = new StreamReader(this.OpenDbFile()))
+            {
+                for (int i = 0; i < page; i++)
+                {
+                    buffer = dbFile.ReadLine().ToCharArray();
+                }
+                //dbFile.Read(buffer, this.pageLength * (page - 1), this.pageLength-1);
 
-			memoryPage.Page = page;
-			memoryPage.Buffer = buffer;
-			memoryPage.PinCount++;
-			memoryPage.LastAccess = DateTime.Now;
+                memoryPage.Page = page;
+                memoryPage.Buffer = buffer;
+                memoryPage.PinCount++;
+                memoryPage.LastAccess = DateTime.Now;
+            }
 		}
 	}
 }

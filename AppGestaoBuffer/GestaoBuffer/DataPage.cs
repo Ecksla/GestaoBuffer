@@ -23,15 +23,19 @@ namespace GestaoBuffer
 			LastAccess = DateTime.Now;
 		}
 
+        public DataPage()
+        {            
+        }
+
 		public override string ToString()
 		{
 			StringBuilder sb = new StringBuilder();
 			sb.AppendLine(string.Format("Page: {0}", this.Page));
-			sb.AppendLine(string.Format("Buffer: {0}", this.Buffer));
+			sb.AppendLine(string.Format("Buffer: {0}", new string(this.Buffer)));
 			sb.AppendLine(string.Format("Dirt: {0}", this.Dirt));
 			sb.AppendLine(string.Format("PinCount: {0}", this.PinCount));
 
-			return this.ToString();
+            return sb.ToString();
 		}
 	}
 }
