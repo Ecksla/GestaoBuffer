@@ -1,9 +1,0 @@
-C:\Users\Silvio\Documents\FURB\6º Semestre\trunk\AppGestaoBuffer\GestaoBuffer\bin\Debug\GestaoBuffer.exe.config
-C:\Users\Oeckslers\Desktop\GestaoBuffer\trunk\AppGestaoBuffer\GestaoBuffer\bin\Debug\GestaoBuffer.exe.config
-C:\Users\Oeckslers\Desktop\GestaoBuffer\trunk\AppGestaoBuffer\GestaoBuffer\obj\x86\Debug\GestaoBuffer.csprojResolveAssemblyReference.cache
-C:\Users\Oeckslers\Desktop\GestaoBuffer\trunk\AppGestaoBuffer\GestaoBuffer\obj\x86\Debug\GestaoBuffer.Properties.Resources.resources
-C:\Users\Oeckslers\Desktop\GestaoBuffer\trunk\AppGestaoBuffer\GestaoBuffer\obj\x86\Debug\GestaoBuffer.csproj.GenerateResource.Cache
-C:\Users\Oeckslers\Desktop\GestaoBuffer\trunk\AppGestaoBuffer\GestaoBuffer\bin\Debug\GestaoBuffer.exe
-C:\Users\Oeckslers\Desktop\GestaoBuffer\trunk\AppGestaoBuffer\GestaoBuffer\bin\Debug\GestaoBuffer.pdb
-C:\Users\Oeckslers\Desktop\GestaoBuffer\trunk\AppGestaoBuffer\GestaoBuffer\obj\x86\Debug\GestaoBuffer.exe
-C:\Users\Oeckslers\Desktop\GestaoBuffer\trunk\AppGestaoBuffer\GestaoBuffer\obj\x86\Debug\GestaoBuffer.pdb
