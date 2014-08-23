@@ -1,0 +1,12 @@
+﻿<Window x:Class="SGBDBufferUsage.GestaoRegistros"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GestaoRegistros" Height="300" Width="761">
+    <Grid>
+        <Button Content="Novo" Height="23" HorizontalAlignment="Left" Margin="92,62,0,0" Name="btnNovoRegistro" VerticalAlignment="Top" Width="75" Click="btnNovoRegistro_Click" />
+        <WrapPanel Height="112" HorizontalAlignment="Left" Margin="42,114,0,0" Name="wrapPanel1" VerticalAlignment="Top" Width="209">
+            <Button Content="Incluir" Height="23" Name="btnIncluirRegistro" Width="69" />
+            <TextBox Height="23" Name="textBox1" Width="120" />
+        </WrapPanel>
+    </Grid>
+</Window>
