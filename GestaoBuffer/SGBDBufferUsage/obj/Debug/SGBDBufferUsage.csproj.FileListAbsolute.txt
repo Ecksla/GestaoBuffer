@@ -1,0 +1,14 @@
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\bin\Debug\SGBDBufferUsage.exe
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\bin\Debug\SGBDBufferUsage.pdb
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\SGBDBufferUsage.csprojResolveAssemblyReference.cache
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\MainWindow.baml
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\MainWindow.g.cs
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\App.g.cs
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\SGBDBufferUsage_MarkupCompile.cache
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\SGBDBufferUsage.g.resources
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\SGBDBufferUsage.Properties.Resources.resources
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\SGBDBufferUsage.csproj.GenerateResource.Cache
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\SGBDBufferUsage.exe
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\obj\Debug\SGBDBufferUsage.pdb
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\bin\Debug\SGBDBuffer.exe
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBufferUsage\bin\Debug\SGBDBuffer.pdb

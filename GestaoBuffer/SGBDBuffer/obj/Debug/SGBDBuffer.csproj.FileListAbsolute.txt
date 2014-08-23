@@ -1,0 +1,5 @@
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBuffer\bin\Debug\SGBDBuffer.exe
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBuffer\bin\Debug\SGBDBuffer.pdb
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBuffer\obj\Debug\SGBDBuffer.csprojResolveAssemblyReference.cache
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBuffer\obj\Debug\SGBDBuffer.exe
+C:\Users\Silvio\Documents\Visual Studio 2013\Projects\FURB\GestaoBuffer\SGBDBuffer\obj\Debug\SGBDBuffer.pdb

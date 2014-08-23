@@ -1,0 +1,33 @@
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBufferUsage.exe
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBufferUsage.pdb
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBuffer.dll
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBuffer.pdb
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.csprojResolveAssemblyReference.cache
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\MainWindow.baml
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\MainWindow.g.cs
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\App.g.cs
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage_MarkupCompile.cache
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.g.resources
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.Properties.Resources.resources
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.csproj.GenerateResource.Cache
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.exe
+C:\Data\My Documents\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.pdb
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.exe
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.pdb
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBufferUsage.exe
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBufferUsage.pdb
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBuffer.dll
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBuffer.pdb
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.csprojResolveAssemblyReference.cache
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\MainWindow.baml
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\MainWindow.g.cs
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\App.g.cs
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage_MarkupCompile.cache
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.g.resources
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.Properties.Resources.resources
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.csproj.GenerateResource.Cache
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBufferUsage.exe.manifest
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\bin\Release\SGBDBufferUsage.application
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.exe.manifest
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\obj\Release\SGBDBufferUsage.application
+C:\Users\gobertoldi\Desktop\GestaoBuffer\SGBDBufferUsage\bin\Release\Data.txt
