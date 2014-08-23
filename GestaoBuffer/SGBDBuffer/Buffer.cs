@@ -30,11 +30,13 @@ namespace SGBDBuffer
             }
         }
 
+        #region buffer automático
         public void LoadPageInMemory()
         {
             ChangeIndex = new Random().Next(0, 19);
             BufferMemory.LoadPage(ChangeIndex);
         }
+
 
         public void ChangePageInMemory()
         {
@@ -75,5 +77,13 @@ namespace SGBDBuffer
 
             return c;
         }
+        #endregion
+
+        #region buffer registros
+        public void LoadPageInMemory(int changeIndex)
+        {
+            BufferMemory.LoadPage(changeIndex);
+        }
+        #endregion
     }
 }
